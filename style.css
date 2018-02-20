@@ -1,0 +1,55 @@
+body{
+  box-sizing: border-box;
+  background-color: #6e6259;
+  background-size: cover;
+  min-height: 100vh; //vertical height
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Pacifico;
+}
+*, *:before, *:after {box-sizing: inherit;}
+
+h1 {
+ color: #eae8e7;
+ margin-bottom: 70px;
+ margin-top: 50px; 
+}
+
+.container{
+  background-color: #aca5a0;
+  padding-top: 20px;
+}
+
+
+.recipeBtn {
+  padding: 20px;
+}
+
+.card {
+  background-color: #594c42;
+  color: #eae8e7;
+  font-size:250%;
+  
+}
+
+.input-text-field {
+  font-family: Arial;
+  
+}
+
+.card button {
+    background-color: #aca5a0;
+    border:none;
+    padding: 5px; 
+    border-radius: 5px;
+    color: #594c42;
+    font-size:22px;
+  }
+
+.recipes {
+  color: #6e6259;
+  font-size:150%;
+  padding:20px;
+}
